@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    background: #784242;
+    font-size: 16px;
+}
+h1 {
+    color: #333;
+    text-transform: uppercase;
+}
+.Description {
+    background-color: hsla(0, 0%, 100%, 0.863);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+.membre {
+    display: inline-block;
+    margin: 10px;
+}
+.membre img {
+    max-width: 200px;
+    border-radius: 50%;
+}

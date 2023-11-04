@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>contact</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Contactez-nous</h1>
+        <form action="traitement.php" method="post">
+            <label for="civility">Civilité :</label>
+            <select id="civility" name="civility" required>
+                <option value="M.">M.</option>
+                <option value="Mme">Mme</option>
+                <option value="Mlle">Mlle</option>
+            </select>
+
+            <label for="fullname">Nom et prénom :</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="address">Adresse postale :</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
+            <label for="privacyPolicy">J'accepte les politiques de confidentialité</label>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+</html>

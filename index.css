@@ -1,0 +1,67 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;  
+        }
+
+        header {
+            background-color: white;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            background: url(./images_photos/img0.jpg); 
+            text-transform: uppercase;
+            letter-spacing: normal;
+            list-style: none;
+            
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+        }
+
+        .A propos de {
+            text-align: center;
+            margin: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+        }
+        .icons{
+            text-align: center;
+        }
+        .icons img {
+            width: 100px;
+            margin: 55px;
+
+        }
+
+        .services {
+            display: flexbox;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .service {
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            width: 30%;
+        }
+    
